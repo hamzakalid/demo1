@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html>
-<body>
-
-<video width="700" controls>
-  <source src="videoplayback.mp4" type="video/mp4">
-  <track
-    label="English"
-    kind="subtitles"
-    srclang="eg"
-    src="translate/original.vtt" />
-  <track
-    label="العربية"
-    kind="subtitles"
-    srclang="ar"
-    src="translate/translated_ar.vtt" />
-  <track
-    label="हिन्दी"
-    kind="subtitles"
-    srclang="in"
-    src="translate/translated_IN.vtt" />
-  <track
-    label="Español"
-    kind="subtitles"
-    srclang="es"
-    src="translate/translated_SP.vtt" />
-  <track
-    label="اردو"
-    kind="subtitles"
-    srclang="ur"
-    src="translate/translated_UR.vtt" />
-  Your browser does not support the video tag.
-</video>
-
-</body>
+  <body>
+    <video width="700" controls>
+      <source src="videoplayback.mp4" type="video/mp4" />
+      <track
+        label="English"
+        kind="subtitles"
+        srclang="eg"
+        src="translate/original.vtt"
+        default
+      />
+      <track
+        label="العربية"
+        kind="subtitles"
+        srclang="ar"
+        src="translate/translated_ar.vtt"
+      />
+      <track
+        label="हिन्दी"
+        kind="subtitles"
+        srclang="in"
+        src="translate/translated_IN.vtt"
+      />
+      <track
+        label="Español"
+        kind="subtitles"
+        srclang="es"
+        src="translate/translated_SP.vtt"
+      />
+      <track
+        label="اردو"
+        kind="subtitles"
+        srclang="ur"
+        src="translate/translated_UR.vtt"
+      />
+      Your browser does not support the video tag.
+    </video>
+  </body>
 </html>
